@@ -266,7 +266,10 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .skills-container,
     .resume-container,
     footer,
-    .about-items{
+    .about-items,
+    .banner,
+    nav,
+    nav ul{
         flex-direction: column;
     }
 
@@ -279,7 +282,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         width: 100%;
     }
 
-    footer input[type="text"], footer input[type="email"], footer textarea{
+    footer input[type="text"], 
+    footer input[type="email"], 
+    footer textarea{
         width: calc(100% - 40px);
         margin:0 auto 24px auto;
     }
@@ -287,9 +292,33 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .about{
         padding: 130px 20px;
     }
-    
-    .about-items{
+
+    .about-items, 
+    nav ul{
         gap: 20px;
     }
 
+    nav{
+        margin: 0;
+    }
+
+    .banner{
+        margin: 0 20px 0 20px;
+    }
+
+    .banner-content{
+        max-width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 30px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+
+    /* .header{
+        background-image: none;
+    } */
+
+   
 }
