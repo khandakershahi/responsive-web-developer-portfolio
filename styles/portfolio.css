@@ -257,11 +257,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 }
 
-.hide{
-    display: none;
-}
 
 
+/* mobile device media query */
 @media screen and (max-width:576px) {
     .skills-container,
     .resume-container,
@@ -321,4 +319,41 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     } */
 
    
+}
+
+/* tablet specific media query */
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner{
+        margin: 0 20px 0 20px;
+    }
+    .banner-content{
+        max-width: 100%;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+
+    .btn-primary{
+        margin-right: 30px;
+    }
+
+    .skills-container,
+    .resume-container,
+    footer{
+        flex-wrap: wrap;
+
+    }
+    footer{
+        padding: 130px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume-container{
+        padding: 20px;
+    }
 }
